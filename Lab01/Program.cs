@@ -2,14 +2,21 @@
 Console.WriteLine("ВИЗИТКА СИСТЕМЫ");
 Console.ResetColor();
 
-string studentName = "Максим"; // <- замените на своё
-string studentGroup = "ПМБИ-261"; // <- замените на свою группу
-Console.ForegroundColor = ConsoleColor.Yellow;
+string studentName = "Серебряков Максим";
+string studentGroup = "ПМБИ-261";
+string favLanguage = "C#";
+string codingYears = "1 год";
+Console.ForegroundColor = ConsoleColor.Magenta;
 Console.WriteLine("\n[Студент]");
 Console.ResetColor();
-Console.WriteLine($"Имя:     {studentName}");
-Console.WriteLine($"Группа:  {studentGroup}");
-Console.WriteLine($"Дата:    {DateTime.Now:dd.MM.yyyy HH:mm}");
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine($"Имя:        {studentName}");
+Console.WriteLine($"Группа:     {studentGroup}");
+Console.WriteLine($"Язык:       {favLanguage}");
+Console.WriteLine($"Опыт:       {codingYears}");
+Console.WriteLine($"Дата:       {DateTime.Now:dd.MM.yyyy HH:mm}");
+Console.ResetColor();
 
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("\n[Компьютер]");
