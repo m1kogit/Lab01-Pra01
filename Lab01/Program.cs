@@ -77,3 +77,5 @@ Console.WriteLine("Yellow");
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("White");
 Console.ResetColor();
+
+Console.WriteLine("Тестовая строка для замера времени сборки");
